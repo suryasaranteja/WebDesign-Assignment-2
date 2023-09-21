@@ -1,0 +1,274 @@
+body{
+    background-image: url("Wall1.avif");
+}
+header{
+    background-color: #053B50;
+    text-shadow: 2px 2px 5px #677189;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(238, 243, 245);
+}
+#abtmain{
+    padding: 50px;
+    overflow: auto;
+}
+#imghome{
+    padding: 150px ;
+    overflow: auto;
+}
+#imgdiv{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    width: 275px;
+    height: 350px;
+    border: 3px solid #080808;
+}
+#summy{
+    position: relative;
+    left: 160px;
+    top: -70px;
+    width: 1100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+
+}
+.abt{
+    font-size: larger;
+    position: relative;
+    overflow: auto;
+    left: 60px;
+    width: 500px;
+}
+ul li{
+    list-style:disc;
+    color: rgb(11, 12, 12);
+    font-family: "Verdana, Arial, sans-serif";
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+footer{
+    background-color: #053B50 ;
+    text-shadow: 2px 2px 5px #677189;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(238, 243, 245);
+}
+main img{
+    float: left;
+    height: 350px;
+    margin: 1px;
+}
+.links{
+    font-size: larger;
+    text-decoration: none;
+}
+.nav {
+    overflow:hidden;
+    background-color: #053B50;
+  }
+
+.nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    border-radius: 30px;
+    padding: 3px 40px;
+    text-decoration: none;
+  }
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav1 a {
+    text-align: center;
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 5px 100px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+.nav1 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+form{
+    border: solid #080808 ;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+.assign{
+    margin-top: 100px;
+    padding: 30px;
+    font-size: larger;
+
+}
+.c1 {
+    float: left;
+    margin-left: 0px;
+    background-color: #B0D9B1;
+    align-items: center;
+    width: 50%;
+  }
+
+.c2{
+    float: left;
+    margin-left: 0px;
+    background-color: #D0E7D2;
+    align-items: center;
+    width: 50%;
+}
+.img1{
+    margin-left: 40px;
+    image-orientation: inherit;
+}
+.img2{
+    margin-left: 40px;
+    image-orientation: inherit;
+}
+.b1{
+    background-color: #053B50 ;
+    color: white;
+    border-radius: 5em;
+    border-color: rgb(248, 248, 250);
+    height: 5em;
+    width: 10em;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.cont{
+    font-size: larger;
+}
+div.gallery {
+    margin: 5px;
+    border: 5px solid #1a1919;
+    float: center;
+    width: 480px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+table{
+    background-image: url(What-are-Vitrified-Tiles_Most-Read.webp);
+    padding: 50px;
+    font-size: larger;
+    border-radius: 5em;
+}
+
+/* for phones */
+@media only screen 
+and (min-width: 375px)
+and (max-width: 567px){
+/* and (min-device-width: 375px) */
+
+/* and (-webkit-min-device-pixel-ratio: 2){ */
+    header{
+        background-color: #053B50;
+        text-shadow: 2px 2px 5px #677189;
+        padding: 30px;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(238, 243, 245);
+    }
+    #imgdiv{
+        position: absolute;
+        top: 200px;
+        left: 120px;
+        width: 150px;
+        height: 150px;
+        border: 3px solid #080808;
+    }
+    #sur{
+        width: 150px;
+        height: 150px;
+    }
+    #summy{
+        position: relative;
+        left: -130px;
+        top: 50px;
+        width: 350px;
+        margin-bottom: 100px;
+        font-size: small;
+    }
+    #linked{
+        position: relative;
+        left: -130px;
+        font-size: 10px;
+    }
+    form{
+    border: solid #080808 ;
+    width: 250px;
+    padding: 10px 10px 10px 10px ;
+    font-weight: bold;
+    font-size: larger;
+    }
+
+}
+
+/* for ipad */
+@media only screen
+and (orientation: landscape)
+and (min-width : 768px)
+and (max-width : 1029px) {
+    header{
+        background-color: #053B50;
+        text-shadow: 2px 2px 5px #677189;
+        padding: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(238, 243, 245);
+    }
+    #imgdiv{
+        position: absolute;
+        top: 300px;
+        left: 120px;
+        width: 200px;
+        height: 200px;
+        border: 3px solid #080808;
+    }
+    #sur{
+        width: 200px;
+        height: 200px;
+    }
+    #summy{
+        position: relative;
+        left: 180px;
+        top: -90px;
+        width: 350px;
+        margin-bottom: 100px;
+        font-size: small;
+    }
+    #linked{
+        position: relative;
+        left: -100px;
+        font-size: 20px;
+    }
+    form{
+    border: solid #080808 ;
+    width: 350px;
+    padding: 10px 10px 10px 10px ;
+    font-weight: bold;
+    font-size: larger;
+    }
+
+}
+
+/* for desktop */
+@media only screen
+and (min-width: 1367px)
+and (max-width:1605px)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+
+
